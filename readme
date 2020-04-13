@@ -1,0 +1,20 @@
+1. 首先主要在spring-mvc(spring-servlet)中需要查看一些不需要的配置，
+	建议就是全都配置上就可以了。
+2. spirng-mvc相关jar包被包含在spring-servlet中，所以可以直接使用
+3. spring容器和spring-mvc容器是父子容器，建议就是不要将controller的bean交给父类的
+	spring容器管理，否则需要配置一个属性才能够正确映射，所以spring来管理后台的类就行了。
+	访问规则:子容器能够访问父类容器，反之不行
+4. 首页访问路径:http://localhost:8080/ssm/list.do
+5. mybatis 加载方式:
+	SqlSessionFactory factory = new SqlSessionFactoryBuilder()
+	.build(Resources.GetResourceAsReader(mybatis-config.xml));
+	SqlSession session = factory.openSession();
+	Dao temp = session.getMapper(Dao.class);
+6. session.getMapper()是通过配置文件中的namespace来寻找的,所以namespace不要乱写
+7. 注解：springMVC是通过dispastservlet来监听的，spring使用linstener监听的，他们之间的启动顺序，web容器有又一个即，
+	第一：context-param
+	第二：Listerer
+	第三：Filter
+	第四：servlet
+	这样的启动顺序是有一定联系的
+8. <mvc:annotation-driven /> 在ajax存在时必须配置
