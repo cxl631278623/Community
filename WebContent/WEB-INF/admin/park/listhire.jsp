@@ -6,9 +6,28 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link href="/house/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<style>
+.park-listhire-container {
+	padding-top: 30px;
+}
+.park-listhire-search {
+	display: flex;
+}
+.park-listhire-search .form-group {
+	margin-right: 30px;
+}
+.houses-listhire-search-btn {
+	width: 100px;
+	height: 34px;
+	line-height: 34px !important;
+	border-radius: 4px !important;
+    padding: 0 16px !important;
+    font-size: 16px !important;
+}
+</style>
 </head>
 <body>
-<div class="container">
+<div class="container park-listhire-container">
 	<!-- <div class="row clearfix">
 			<div class="col-md-12 column">
 				<div class="btn-group btn-group-lg">
@@ -17,12 +36,12 @@
 			</div>
 		</div> -->
 		<div class="row clearfix">
-			<div class="col-md-12 column">
+			<div class="col-md-12 column park-listhire-search">
 				<div class="btn-group btn-group-lg" style="text-align:center">
 					<div class="form-group" style="display:inline;float:left;">
 						<input type="text" class="form-control" id="parkid" name="parkid" placeholder="车位号"/>
 					</div>
-					<button type="button" class="btn btn-block btn-primary btn-default" id="find" onclick="prepare(1,5)">查询</button>
+					<button type="button" class="btn btn-block btn-primary btn-default houses-listhire-search-btn" id="find" onclick="prepare(1,5)">查询</button>
 				</div>
 			</div>
 		</div>

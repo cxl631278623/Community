@@ -6,9 +6,21 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
+<style type="text/css">
+.admin-head {
+	background: #3992d0;
+	margin: 0;
+	color: #fff;
+}
+.admin-head-h1 {
+	margin: 0;
+	padding-left: 20px;
+	line-height: 50px;
+	font-size: 16px;
+}
+</style>
 </head>
-<body>
-物业管理系统
-   
+<body class="admin-head">
+<h1 class="admin-head-h1">物业管理系统</h1>
 </body>
 </html>

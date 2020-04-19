@@ -11,9 +11,13 @@
 	background-color:#3992d0;
 	height:100%;
 }
+.admin-home-h2 {
+	margin-left: 50px;
+	padding-top: 10px;
+}
 </style>
 </head>
 <body id="bd">
-欢迎使用物业管理系统
+<h2 class="admin-home-h2">欢迎使用物业管理系统</h2>
 </body>
 </html>

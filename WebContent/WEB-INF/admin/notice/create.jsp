@@ -12,19 +12,18 @@
 	<div class="row clearfix">
 		<div class="col-md-12 column">
 			<div class="row clearfix">
-			<div class="col-md-3 column">
+			<div class="col-md-2 column">
 				</div>
-				<div class="col-md-6 column">
+				<div class="col-md-8 column">
 						<div class="form-group" >
 							 <input type="text" class="form-control" id="title" name="title" style="height:34px" placeholder="标题"/>
 						</div>
 						<div>
-							<script id="editor" type="text/plain" style="width:700px;height:300px;"></script>
- 							
+							<script id="editor" type="text/plain" style="width:100%;height:300px;margin-bottom: 15px;"></script>
    						</div>
 						<button type="button" class="btn btn-block btn-primary btn-default" id="save">保存</button>
 				</div>
-				<div class="col-md-3 column">
+				<div class="col-md-2 column">
 				</div>
 			</div> 
 		</div>

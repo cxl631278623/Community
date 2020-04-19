@@ -6,9 +6,28 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link href="/house/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<style>
+.repair-count-container {
+	padding-top: 30px;
+}
+.repair-count-search {
+	display: flex;
+}
+.repair-count-search .form-group {
+	margin-right: 30px;
+}
+.repair-count-search-btn {
+	width: 100px;
+	height: 34px;
+	line-height: 34px !important;
+	border-radius: 4px !important;
+    padding: 0 16px !important;
+    font-size: 16px !important;
+}
+</style>
 </head>
 <body>
-<div class="container">
+<div class="container repair-count-container">
 	<!-- <div class="row clearfix">
 			<div class="col-md-12 column">
 				<div class="btn-group btn-group-lg">
@@ -18,14 +37,14 @@
 		</div> -->
 		<div class="row clearfix">
 			<div class="col-md-12 column">
-				<div class="btn-group btn-group-lg" style="text-align:center">
+				<div class="btn-group btn-group-lg repair-count-search" style="text-align:center">
 					<div class="form-group" style="display:inline;float:left;">
 						<input type="text" class="form-control laydate-icon" id="time" name="time" readonly="readonly" onclick="laydate()" placeholder="哪个月(完成时间的月份)" style="height:34px"/>
 					</div>
 					<div class="form-group" style="display:inline;float:left;">
 						<input type="text" class="form-control" id="principal" name="principal" placeholder="请输入需要统计哪个负责人"/>
 					</div>
-					<button type="button" class="btn btn-block btn-primary btn-default" id="find" onclick="prepare()">查询</button>
+					<button type="button" class="btn btn-block btn-primary btn-default repair-count-search-btn" id="find" onclick="prepare()">查询</button>
 				</div>
 			</div>
 		</div>

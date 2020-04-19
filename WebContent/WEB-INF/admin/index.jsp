@@ -8,7 +8,7 @@
 <title>Insert title here</title>
 <link href="/house/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<frameset rows="6%,*" id="shangxia">
+<frameset rows="50px,*" id="shangxia">
 	<frame src="/house/admin/page/head.do">
 	<frameset cols="16%,*" id="zuoyou">
 		<frame src="/house/admin/page/left.do" scrolling="no" frameborder="0">

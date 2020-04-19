@@ -6,9 +6,20 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link href="/house/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<style>
+.park-list-container {
+	padding-top: 30px;
+}
+.park-list-search {
+	display: flex;
+}
+.park-list-search .form-group {
+	margin-right: 30px;
+}
+</style>
 </head>
 <body>
-<div class="container">
+<div class="container park-list-container">
 	<!-- <div class="row clearfix">
 			<div class="col-md-12 column">
 				<div class="btn-group btn-group-lg">
@@ -18,7 +29,7 @@
 		</div> -->
 		<div class="row clearfix">
 			<div class="col-md-12 column">
-				<div class="btn-group btn-group-lg" style="text-align:center">
+				<div class="btn-group btn-group-lg park-list-search" style="text-align:center">
 					<div class="form-group" style="display:inline;float:left;">
 							<select class="form-control" id="optiona" name="optiona" onchange="prepare(1,5)">
 								<option value="">请选择车位位置</option>

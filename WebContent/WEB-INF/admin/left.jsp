@@ -22,7 +22,7 @@ a{text-decoration:none;}
 .line{height:2px;width:100%;background-image:url(/house/tree/images/left/line_bg.png);background-repeat:repeat-x;}
 .leftsidebar_box dt{padding-left:40px;padding-right:10px;background-repeat:no-repeat;background-position:10px center;color:#f5f5f5;font-size:14px;position:relative;line-height:48px;cursor:pointer;}
 .leftsidebar_box dd{background-color:#317eb4;padding-left:40px;}
-.leftsidebar_box dd a{color:#f5f5f5;line-height:20px;}
+.leftsidebar_box dd a{color:#f5f5f5;line-height:27px;}
 .leftsidebar_box dt img{position:absolute;right:10px;top:20px;}
 .system_log dt{background-image:url(/house/tree/images/left/system.png)}
 .custom dt{background-image:url(/house/tree/images/left/custom.png)}

@@ -6,47 +6,64 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link href="/house/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<style>
+.repair-create-form .row {
+    margin-right: 0;
+    margin-left: 0;
+}
+.repair-create-form  textarea {
+	display: block;
+	width: 100%;
+}
+.repair-create-btn {
+	padding: 0;
+}
+</style>
 </head>
 <body>
 <div class="container" style="padding:0px;margin-top:30px">
 	<div class="row clearfix">
-		<div class="col-md-12 column">
-			<div class="row clearfix">
-			<div class="col-md-3 column">
-				</div>
+		<div class="col-md-12 column repair-create-form">
+			<div class="row clearfix" style="margin-right: 0;margin-left: 0;">
+				<div class="col-md-3 column"></div>
 				<div class="col-md-6 column">
-						<div class="form-group">
-							 <label for="category">保修类别</label>
-							<select name="category" id="category" class="form-control">
-								<option value="">请选择保修类型</option>
-								<option value="水表">水表</option>
-								<option value="电表">电表</option>
-								<option value="燃气表">燃气表</option>
-								<option value="水管">水管</option>
-								<option value="电线">电线</option>
-								<option value="燃气管">燃气管</option>
-								<option value="其他">其他</option>
-							</select>
-						</div>
-						<div class="form-group">
-							 <label for="houseid">保修房号</label><input type="text" class="form-control" id="length" name="houseid"/>
-						</div>
-						<div class="form-group">
-							 <label for="descr">问题描述</label><textarea name="descr"></textarea>>
-						</div>
-						<div class="form-group">
-							 <label for="means">保修方式</label>
-							 <select name="means" class="form-control">
-							 	<option value="">请选择报修方式</option>
-							 	<option value="1">客服中心保修</option>
-							 	<option value="2">电话保修</option>
-							 	<option value="3">网上保修</option>
-							 </select>
-						</div>
+					<div class="form-group">
+						 <label for="category">保修类别</label>
+						<select name="category" id="category" class="form-control">
+							<option value="">请选择保修类型</option>
+							<option value="水表">水表</option>
+							<option value="电表">电表</option>
+							<option value="燃气表">燃气表</option>
+							<option value="水管">水管</option>
+							<option value="电线">电线</option>
+							<option value="燃气管">燃气管</option>
+							<option value="其他">其他</option>
+						</select>
+					</div>
+					<div class="form-group">
+						 <label for="houseid">保修房号</label><input type="text" class="form-control" id="length" name="houseid"/>
+					</div>
+					<div class="form-group">
+						 <label for="descr">问题描述</label><textarea name="descr"></textarea>
+					</div>
+					<div class="form-group">
+						 <label for="means">保修方式</label>
+						 <select name="means" class="form-control">
+						 	<option value="">请选择报修方式</option>
+						 	<option value="1">客服中心保修</option>
+						 	<option value="2">电话保修</option>
+						 	<option value="3">网上保修</option>
+						 </select>
+					</div>
 				</div>
-				<div class="col-md-3 column">
-				</div>
-			</div> <button type="button" class="btn btn-block btn-primary btn-default">提交</button>
+				<div class="col-md-3 column"></div>
+			</div>
+		
+			<div class="col-md-12 column repair-create-btn">
+				<div class="col-md-3 column"></div>
+				<div class="col-md-6 column"><button type="button" class="btn btn-block btn-primary btn-default">提交</button></div>
+				<div class="col-md-3 column"></div>
+			</div>
 		</div>
 	</div>
 </div>

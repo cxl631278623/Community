@@ -12,17 +12,15 @@
 	<div class="row clearfix">
 		<div class="col-md-12 column">
 			<div class="row clearfix">
-			<div class="col-md-3 column">
+				<div class="col-md-2 column"></div>
+				<div class="col-md-8 column">
+					<div style="margin-bottom:15px">
+						<script id="editor" type="text/plain" style="width:100%;height:300px;"></script>
+							
+  						</div>
+					<button type="button" class="btn btn-block btn-primary btn-default" id="save">保存</button>
 				</div>
-				<div class="col-md-6 column">
-						<div>
-							<script id="editor" type="text/plain" style="width:700px;height:300px;"></script>
- 							
-   						</div>
-						<button type="button" class="btn btn-block btn-primary btn-default" id="save">保存</button>
-				</div>
-				<div class="col-md-3 column">
-				</div>
+				<div class="col-md-2 column"></div>
 			</div> 
 		</div>
 	</div>

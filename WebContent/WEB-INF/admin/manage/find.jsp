@@ -6,9 +6,29 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link href="/house/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<style>
+.manage-find-container {
+	padding-top: 30px;
+}
+.manage-find-search {
+	display: flex;
+	flex-wrap: wrap;
+}
+.manage-find-search .form-group {
+	margin-right: 30px;
+}
+.manage-find-search-btn {
+	width: 100px;
+	height: 34px;
+	line-height: 34px !important;
+	border-radius: 4px !important;
+    padding: 0 16px !important;
+    font-size: 16px !important;
+}
+</style>
 </head>
 <body>
-<div class="container">
+<div class="container manage-find-container">
 	<!-- <div class="row clearfix">
 			<div class="col-md-12 column">
 				<div class="btn-group btn-group-lg">
@@ -18,14 +38,14 @@
 		</div> -->
 		<div class="row clearfix">
 			<div class="col-md-12 column">
-				<div class="btn-group btn-group-lg" style="text-align:center">
-					<div class="form-group" style="display:inline;float:left;margin-left:30px">
+				<div class="btn-group btn-group-lg manage-find-search" style="text-align:center">
+					<div class="form-group" style="display:inline;float:left;">
 							 <input type="text" class="form-control laydate-icon" id="month"  readonly="readonly" name="month" style="height:34px" placeholder="选择年月份"/>
 						</div>
-					<div class="form-group" style="display:inline;float:left;margin-left:30px">
+					<div class="form-group" style="display:inline;float:left;">
 							 <input type="text" class="form-control" id="houseid" name="houseid" style="height:34px" placeholder="请输入房号"/>
 					</div>
-					<button type="button" class="btn btn-block btn-primary btn-default" id="show">查询</button>
+					<button type="button" class="btn btn-block btn-primary btn-default manage-find-search-btn" id="show">查询</button>
 				</div>
 			</div>
 		</div>

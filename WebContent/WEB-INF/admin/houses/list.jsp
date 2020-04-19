@@ -6,9 +6,28 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link href="/house/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<style>
+.houses-list-container {
+	padding-top: 30px;
+}
+.houses-list-search {
+	display: flex;
+}
+.houses-list-search .form-group {
+	margin-right: 30px;
+}
+.houses-list-search-btn {
+	width: 100px;
+	height: 34px;
+	line-height: 34px !important;
+	border-radius: 4px !important;
+    padding: 0 16px !important;
+    font-size: 16px !important;
+}
+</style>
 </head>
 <body>
-<div class="container">
+<div class="container houses-list-container">
 	<!-- <div class="row clearfix">
 			<div class="col-md-12 column">
 				<div class="btn-group btn-group-lg">
@@ -18,7 +37,7 @@
 		</div> -->
 		<div class="row clearfix">
 			<div class="col-md-12 column">
-				<div class="btn-group btn-group-lg" style="text-align:center">
+				<div class="btn-group btn-group-lg houses-list-search" style="text-align:center">
 					<div class="form-group" style="display:inline;float:left;">
 							<input type="text" class="form-control" id="account" name="account" placeholder="房屋号"/>
 					</div>
@@ -28,7 +47,7 @@
 					<div class="form-group" style="display:inline;float:left;">
 							 <input type="text" class="form-control" id="floorid" name="floorid" placeholder="楼层"/>							
 					</div>
-					<button type="button" class="btn btn-block btn-primary btn-default" id="find">查询</button>
+					<button type="button" class="btn btn-block btn-primary btn-default houses-list-search-btn" id="find">查询</button>
 				</div>
 			</div>
 		</div>

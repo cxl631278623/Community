@@ -6,9 +6,29 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link href="/house/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<style>
+.repair-list-container {
+	padding-top: 30px;
+}
+.repair-list-search {
+	display: flex;
+	flex-wrap: wrap;
+}
+.repair-list-search .form-group {
+	margin-right: 30px;
+}
+.repair-list-search-btn {
+	width: 100px;
+	height: 34px;
+	line-height: 34px !important;
+	border-radius: 4px !important;
+    padding: 0 16px !important;
+    font-size: 16px !important;
+}
+</style>
 </head>
 <body>
-<div class="container">
+<div class="container repair-list-container">
 	<!-- <div class="row clearfix">
 			<div class="col-md-12 column">
 				<div class="btn-group btn-group-lg">
@@ -18,7 +38,7 @@
 		</div> -->
 		<div class="row clearfix">
 			<div class="col-md-12 column">
-				<div class="btn-group btn-group-lg" style="text-align:center">
+				<div class="btn-group btn-group-lg repair-list-search" style="text-align:center">
 					<div class="form-group" style="display:inline;float:left;">
 						<input type="text" class="form-control laydate-icon" id="reportdate" name="reportdate" readonly="readonly" onclick="laydate()" placeholder="申请维修日期" style="height:34px"/>
 					</div>
@@ -51,7 +71,7 @@
 							<option value="3">处理完成并且交钱了</option>
 						</select>
 					</div>
-					<button type="button" class="btn btn-block btn-primary btn-default" id="find" onclick="prepare(1,5)">查询</button>
+					<button type="button" class="btn btn-block btn-primary btn-default repair-list-search-btn" id="find" onclick="prepare(1,5)">查询</button>
 				</div>
 			</div>
 		</div>
