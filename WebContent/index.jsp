@@ -10,12 +10,17 @@
 sheet" href="http://cdn.bootcss.com/bootstrap/3.3.1/css/bootstrap.min.css">
 <link href="/house/css/jquery.slideBox.css" rel="stylesheet" type="text/css" />
 <title>Insert title here</title>
+<style>
+.home-main01, .home-main02 {
+	padding: 0;
+}
+</style>
 </head>
 <body>
 <div class="container">
 	<div class="row clearfix">
 		<div class="col-md-12 column">
-			<nav class="navbar navbar-default" role="navigation">
+			<nav class="navbar navbar-default" style="margin-bottom: 30px;" role="navigation">
 				<div class="navbar-header">
 					 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> 
 					 	<span class="sr-only">Toggle navigation</span>
@@ -66,7 +71,7 @@ sheet" href="http://cdn.bootcss.com/bootstrap/3.3.1/css/bootstrap.min.css">
 			</nav>
 		</div>
 		</div>
-		<div class="col-md-12 column">
+		<div class="col-md-12 column home-main01">
 			<div class="row clearfix">
 				<div class="col-md-7 column">
 					<!-- <div id="demo1" class="slideBox">
@@ -142,13 +147,13 @@ sheet" href="http://cdn.bootcss.com/bootstrap/3.3.1/css/bootstrap.min.css">
 				</div>
 			</div>
 		</div>
-		<div class="col-md-12 column">
+		<div class="col-md-12 column home-main02">
 			<div class="row clearfix">
 				<div class="col-md-7 column">
 					<div style="width:100%;height:30px;background-color:#E7E7E7;text-align:center">
 					  	<strong style="line-height:30px">小区简介</strong>
 					</div>
-					<div id="introduce" style="text-indent:2em;line-height:19px"></div>
+					<div id="introduce" style="text-indent:2em;line-height:19px;padding: 10px 0;"></div>
 				</div>
 				<div class="col-md-5 column">
 					<div style="width:100%;height:30px;background-color:#E7E7E7;text-align:center">

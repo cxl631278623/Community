@@ -57,15 +57,15 @@
 		</div>
 		<div class="row clearfix">
 			<div class="col-md-12 column">
-				<div class="btn-group btn-group-lg" style="text-align:center">
-					<div class="form-group" style="display:inline;float:left;margin-left:30px">
+				<div class="btn-group btn-group-lg" style="display: flex;text-align:center">
+					<div class="form-group" style="margin-right:30px;">
 							 <input type="text" class="form-control laydate-icon" id="month"  readonly="readonly" name="month" style="height:34px" placeholder="选择年月份"/>
 						</div>
-					<button  class="btn btn-block btn-primary btn-default" id="show" onclick="find()">查询</button>
+					<button  class="btn btn-block btn-primary btn-default" id="show" onclick="find()" style="width: 100px;height: 34px;line-height: 34px;border-radius: 4px;padding: 0 16px;font-size: 16px">查询</button>
 				</div>
 			</div>
 		</div>
-	<div class="row clearfix" style="margin-top:50px">
+	<div class="row clearfix" style="margin-top:20px">
 		<div class="col-md-12 column">
 				<table class="table table-hover table-bordered" id="list">
 				<thead>

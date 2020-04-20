@@ -8,6 +8,32 @@
 <link href="/house/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 <link href="/house/css/jquery.slideBox.css" rel="stylesheet" type="text/css" />
 <title>Insert title here</title>
+<style>
+	.nav-left {
+		padding-left: 0;
+		padding-right: 0;
+		background-color:#E7E7E7;
+	}
+	.nav-left ul {
+		margin: 15px 0 15px;
+		padding:0;
+		list-style: none;
+	}
+	.nav-left ul li {
+		line-height: 40px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.nav-left ul li.current,.nav-left ul li:hover {
+		background-color: #fdfdfd;
+	}
+	.nav-left ul li a {
+		display: block;
+		width: 100%;
+		height: 100%;
+		text-decoration: none;
+	}
+</style>
 </head>
 <body>
 <div class="container">
@@ -57,15 +83,15 @@
 		</div>
 		<div class="col-md-12 column">
 			<div class="row clearfix">
-				<div class="col-md-3 column">
+				<div class="col-md-2 column nav-left">
 					<div>
 					  <ul class="items">
-					    <li><a href="#" onclick="change(1)">已读</a></li>
+					    <li class="current"><a href="#" onclick="change(1)">已读</a></li>
 					    <li><a href="#" onclick="change(0)">未读</a></li>
 					  </ul>
 					</div>
 				</div>
-				<div class="col-md-9 column">
+				<div class="col-md-10 column">
 					<div style="width:100%;height:30px;background-color:#E7E7E7;text-align:center">
 					  	<strong style="line-height:30px">消息界面</strong>
 					</div>
@@ -102,6 +128,7 @@
 <script type="text/javascript" charset="utf-8" src="/house/utf8-jsp/ueditor.config.js"></script>
 <script type="text/javascript" charset="utf-8" src="/house/utf8-jsp/ueditor.all.min.js"> </script>
 <script>
+$('.nav-left').height(window.innerHeight - 100);
 var leixing;
 function change(type){
 	leixing = type;
