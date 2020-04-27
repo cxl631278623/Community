@@ -44,47 +44,47 @@ a{text-decoration:none;}
 	<div class="leftsidebar_box">
 		<div class="line"></div>
 		<dl class="system_log">
-			<dt>房屋资源管理<img src="/house/tree/images/left/select_xl01.png"></dt>
+			<dt>房屋资源管理<img src="/house/tree/images/left/select_xl01.png"></dt>
 			<dd class="first_dd"><a href="/house/admin/page/houses/list.do" target="right">列表</a></dd>
 			<dd><a href="/house/admin/page/houses/create.do" target="right">新增</a></dd>
 		</dl>
 	
 		<dl class="custom">
-			<dt onClick="changeImage()">车位管理<img src="/house/tree/images/left/select_xl01.png"></dt>
-			<dd class="first_dd"><a href="/house/admin/page/park/create.do" target="right">新增</a></dd>
-			<dd><a href="/house/admin/page/park/list.do" target="right">列表</a></dd>
-			<dd><a href="/house/admin/page/park/listhire.do" target="right">历史出租信息查询</a></dd>
+			<dt onClick="changeImage()">车位管理<img src="/house/tree/images/left/select_xl01.png"></dt>
+			<dd class="first_dd"><a href="/house/admin/page/park/create.do" target="right">新增</a></dd>
+			<dd><a href="/house/admin/page/park/list.do" target="right">列表</a></dd>
+			<dd><a href="/house/admin/page/park/listhire.do" target="right">历史出租信息查询</a></dd>
 		</dl>
 	
 		<dl class="channel">
-			<dt>保修管理<img src="/house/tree/images/left/select_xl01.png"></dt>
+			<dt>保修管理<img src="/house/tree/images/left/select_xl01.png"></dt>
 			<dd class="first_dd"><a href="/house/admin/page/repair/list.do" target="right">列表</a></dd>
-			<dd><a href="/house/admin/page/repair/create.do" target="right">新增</a></dd>
+			<dd><a href="/house/admin/page/repair/create.do" target="right">新增</a></dd>
 			<dd><a href="/house/admin/page/repair/count.do" target="right">统计</a></dd>
 		</dl>
 	
 		<dl class="app">
-			<dt>单价管理<img src="/house/tree/images/left/select_xl01.png"></dt>
-			<dd class="first_dd"><a href="/house/admin/page/price/create.do" target="right">新增单价安排</a></dd>
-			<dd><a href="/house/admin/page/price/list.do" target="right">单价列表</a></dd>
+			<dt>单价管理<img src="/house/tree/images/left/select_xl01.png"></dt>
+			<dd class="first_dd"><a href="/house/admin/page/price/create.do" target="right">新增单价安排</a></dd>
+			<dd><a href="/house/admin/page/price/list.do" target="right">单价列表</a></dd>
 		</dl>
 	
 		<dl class="cloud">
 			<dt>收费管理<img src="/house/tree/images/left/select_xl01.png"></dt>
-			<dd class="first_dd"><a href="/house/admin/page/manage/create.do" target="right">增加使用量</a></dd>
-			<dd><a href="/house/admin/page/manage/list.do" target="right">收费列表</a></dd>
+			<dd class="first_dd"><a href="/house/admin/page/manage/create.do" target="right">增加使用量</a></dd>
+			<dd><a href="/house/admin/page/manage/list.do" target="right">收费列表</a></dd>
 			<dd><a href="/house/admin/page/manage/find.do" target="right">人工收费</a></dd>
 			<dd><a href="/house/admin/page/manage/count.do" target="right">用量统计</a></dd>
 		</dl>
 	
 		<dl class="syetem_management">
-			<dt>公告管理<img src="/house/tree/images/left/select_xl01.png"></dt>
-			<dd class="first_dd"><a href="/house/admin/page/notice/create.do" target="right">新增</a></dd>
-			<dd><a href="/house/admin/page/notice/list.do" target="right">列表展示</a></dd>
+			<dt>公告管理<img src="/house/tree/images/left/select_xl01.png"></dt>
+			<dd class="first_dd"><a href="/house/admin/page/notice/create.do" target="right">新增</a></dd>
+			<dd><a href="/house/admin/page/notice/list.do" target="right">列表展示</a></dd>
 		</dl>
 	
 		<dl class="source">
-			<dt>系统设置<img src="/house/tree/images/left/select_xl01.png"></dt>
+			<dt>系统设置<img src="/house/tree/images/left/select_xl01.png"></dt>
 			<dd class="first_dd"><a href="/house/admin/page/sys/db.do" target="right">数据库操作</a></dd>
 			<dd class="first_dd"><a href="/house/admin/page/sys/user.do" target="right">更新小区简介</a></dd>
 			<dd class="first_dd"><a href="/house/admin/page/sys/pwd.do" target="right">修改密码</a></dd>
